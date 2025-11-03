@@ -1,0 +1,236 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+/* Navbar */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  background: #333;
+  padding: 15px;
+}
+.navbar .logo { color: white; font-weight: bold; }
+.navbar ul { list-style: none; display: flex; margin: 0; padding: 0; }
+.navbar li { margin-left: 20px; }
+.navbar a { color: white; text-decoration: none; }
+
+/* Banner */
+.banner {
+  background: #8f70ff;
+  text-align: center;
+  padding: 50px;
+}
+
+/* Headquarters */
+.headquarters {
+  text-align: center;
+  padding: 30px;
+}
+.locations {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+.circle {
+  text-align: center;
+}
+.circle img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+/* PORTFOLIO SECTION */
+.portfolio-section {
+  padding: 60px 20px;
+  text-align: center;
+  background: #fff;
+}
+
+.section-title {
+  font-size: 2rem;
+  margin-bottom: 10px;
+  color: #333;
+}
+
+.section-subtitle {
+  font-size: 1rem;
+  margin-bottom: 40px;
+  color: #666;
+}
+
+.portfolio-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 30px;
+}
+
+.portfolio-card {
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0 6px 15px rgba(0,0,0,0.1);
+  overflow: hidden;
+  transition: transform 0.3s ease;
+}
+
+.portfolio-card:hover {
+  transform: translateY(-8px);
+}
+
+.portfolio-img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+}
+
+.portfolio-content {
+  padding: 20px;
+}
+
+.portfolio-content h3 {
+  margin: 0 0 10px;
+  font-size: 1.2rem;
+  color: #333;
+}
+
+.portfolio-content p {
+  font-size: 0.95rem;
+  color: #666;
+  margin-bottom: 15px;
+}
+
+.btn-portfolio {
+  display: inline-block;
+  padding: 10px 20px;
+  background: #ff5c8d;
+  color: #fff;
+  border-radius: 6px;
+  text-decoration: none;
+  transition: background 0.3s ease;
+}
+
+.btn-portfolio:hover {
+  background: #e14a77;
+}
+
+
+form {
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+form label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+form input,
+form textarea,
+form select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 14px;
+    box-sizing: border-box;
+}
+
+form input[type="radio"] {
+    width: auto;
+    margin-right: 5px;
+}
+
+form button {
+    width: 100%;
+    padding: 10px;
+    background-color: #8f70ff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: ##8f70ff;
+}
+
+#profile {
+    text-align: center;      /* supaya teks ketengah */
+    margin: 40px auto;       /* kasih jarak biar lebih rapi */
+}
+
+#profile h2 {
+    font-size: 28px;
+    margin-bottom: 10px;
+}
+
+#profile p {
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+#profile iframe {
+    display: block;
+    margin: 0 auto;          /* biar iframe/pdf viewer ketengah */
+    width: 80%;              /* biar nggak terlalu full */
+    height: 600px;           /* sesuaikan tinggi */
+    border: none;
+}
+
+#contact {
+    text-align: center;
+    margin: 50px auto;
+    max-width: 500px;   /* biar nggak terlalu lebar */
+}
+
+#contact h2 {
+    margin-bottom: 20px;
+}
+
+#contact form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;   /* jarak antar elemen */
+    text-align: left;   /* supaya label & input rata kiri di dalam box */
+}
+
+#contact input,
+#contact textarea,
+#contact button {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-size: 14px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+#contact button {
+    background-color: #8f70ff;
+    color: white;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+}
+
+#contact button:hover {
+    background-color: ##8f70ff;
+}
+
+.gender {
+
+
+/* Footer */
+footer {
+  text-align: center;
+  background: #333;
+  color: white;
+  padding: 10px;
+}
